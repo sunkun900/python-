@@ -1,0 +1,7 @@
+echo "NO.1" > 1.html  新建文件夹 文件夹内创建文件 
+ git add .  //添加到暂缓区
+git commit -m "NO.1"  //提交到本地仓库
+git remote add origin https://github.com/sunkun900/python-.git //确认本地和远程的状态是否正常
+ git push origin master                     //本地推送到远程服务器
+个性化用户信息  git config --global user.name "man" 
+  git config --global user.email 
